@@ -37,6 +37,7 @@ else if(Dylan.equalsIgnoreCase("Mr. Steven")){
 else if(Dylan.equalsIgnoreCase("Joanne")){
 	JOptionPane.showMessageDialog(null, "Your superpower is intelligence.");
 }
+else {JOptionPane.showMessageDialog(null, "I don't remember you!");}
 		// 3. Show the superpower in a pop-up, depending on the name entered. 
 
 	}
