@@ -35,6 +35,15 @@ public class tortoisespiralmaker {
 			Tortoise.turn(360/sides);
 			
 		}
+		Tortoise.penUp();
+		Tortoise.penDown();
+		if(spiral.equals("square")){
+			sides=4;
+		}
+		for (int i = 0; i < 80; i++) {
+			Tortoise.setSpeed(10);
+			Tortoise.turn(360/sides);
+		}
 		
 		// 2. Change your code to turn the square spiral into a triangle spiral
 		
