@@ -27,14 +27,41 @@ if(first>second && first>third){
 	}
 }
 
- if(first<third && first<second){
-if(third>second){
-	System.out.println(first+", "+second+", "+third);
-}
-else{
+ if(first<third && second<third){
+if(first>second){
 	System.out.println(second+", "+first+", "+third);
 }
+else{
+	System.out.println(first+", "+second+", "+third);
+}
 	}
+ 
+ if(first>second && first>third){
+		if(second>third){
+			System.out.println(first+", "+second+", "+third);
+		}
+		else{
+			System.out.println(first+", "+third+", "+second);
+		}
+	}
+
+	 if(first<second && third<second){
+		if(third>first){
+			System.out.println(second+", "+third+", "+first);
+		}
+		else{
+			System.out.println(second+", "+first+", "+third);
+		}
+	}
+
+	 if(first<third && second<third){
+	if(first>second){
+		System.out.println(third+", "+first+", "+second);
+	}
+	else{
+		System.out.println(third+", "+second+", "+first);
+	}
+		}
 }
 
 
