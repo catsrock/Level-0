@@ -5,19 +5,29 @@ import java.util.Random;
 import javax.swing.JOptionPane;
 
 public class Magic8ball {public static void main(String[] args) {
-	int num=new Random().nextInt(2);
+	int num=new Random().nextInt(6);
 			System.out.println(num);
-			String ask=JOptionPane.showInputDialog("Ask a question for the magic 8 ball.");
+			String ask=JOptionPane.showInputDialog("Enter a question for the magic 8 ball.");
 			
 			if (num==0) {
 				JOptionPane.showMessageDialog(null, "Yes.");
 			}
-if (num==(1)) {JOptionPane.showMessageDialog(null, "No.");
+			else if (num==1) {JOptionPane.showMessageDialog(null, "No.");
 	
 }
-if (num==(2)) {JOptionPane.showMessageDialog(null, "Maybe you should ask Google?");
+			else if (num==2) {JOptionPane.showMessageDialog(null, "Maybe you should ask Google?");
 	
 }
+			else if(num==3){
+	JOptionPane.showMessageDialog(null, "Of course.");
+}
+			else if(num==4){
+				JOptionPane.showMessageDialog(null, "Absolutely!");
+			}
+			else if(num==5){
+				JOptionPane.showMessageDialog(null, "I'm not quite sure.");
+			}
+
 }
 
 	// 1. Make a main method that includes all the steps below….
